@@ -29,6 +29,21 @@ body{
     color: white;
 }
 
+.summ {
+    display: inline-block;
+    background-color: #447;
+    text-align: center;
+}
+
+.summ_text {
+    font-size: 150%;
+    display: inline-block;
+    width: 59%;
+    text-align: left;
+    color: #fff;
+    margin: 20px;
+}
+
 .bio {
     display: inline-block;
     background-color: #447;
@@ -38,13 +53,40 @@ body{
 .bio_text {
     font-size: 150%;
     display: inline-block;
-    width: 59%;
+    width: 72%;
     text-align: left;
     color: #fff;
     margin: 20px;
 }
 
+.bio_pic_container {
+    display: inline-block;
+    width: 25%
+}
+
 .bio_pic {
+    display: inline-block;
+    border-radius: 50%;
+    width: 35%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.activities {
+    background-color: #558;
+    text-align: center;
+}
+
+.act_text {
+    font-size: 125%;
+    display: inline-block;
+    width: 72%;
+    text-align: left;
+    color: #fff;
+    margin: 20px auto;
+}
+
+.logo {
     display: inline-block;
     width: 35%;
     }
@@ -123,4 +165,39 @@ body{
     min-height: 10em;
     margin: 0;
     padding: 1px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    display: inline-block;
+    width: 62%;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
